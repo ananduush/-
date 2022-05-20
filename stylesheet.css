@@ -1,0 +1,110 @@
+html * {
+    font-family: Arial, sans-serif;
+}
+
+table,
+p {
+    margin-left: 20%;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(202, 202, 202);
+    position: relative;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    font-size: 15px;
+}
+
+td {
+    padding: 5px;
+}
+
+th {
+    text-align: bottom;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #dbe1ea;
+    border-top: #454d62;
+}
+
+#date {
+    padding-top: 3px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#answer {
+    text-align: end;
+}
+
+#salaryAll {
+    background-color: rgb(122, 112, 255);
+    color: white;
+    background-clip: content-box;
+}
+
+#salaryAll1 {
+    background-color: rgb(122, 112, 255);
+    color: white;
+    background-clip: content-box;
+}
+
+#realSalary {
+    background-color: rgb(77, 211, 0);
+    color: white;
+    background-clip: content-box;
+}
+
+#salaryMain {
+    background-color: rgb(77, 211, 0);
+    color: white;
+    background-clip: content-box;
+}
+
+#salaryReal {
+    background-color: rgb(77, 211, 0);
+    color: white;
+    background-clip: content-box;
+}
+
+#salaryOnHand {
+    background-color: rgb(77, 211, 0);
+    color: white;
+    background-clip: content-box;
+}
+
+.my_button1 {
+    background-color: rgb(125, 138, 253);
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(0, 3, 165);
+}
+
+.my_button1:active {
+    box-shadow: 0 0px;
+    transform: translateY(3px);
+}
+
+.my_button1:hover {
+    background-color: rgb(92, 107, 247)
+}
+
+#salaryMinimum {
+    color: #a3a3a3;
+}
+
+#ndshPercent {
+    color: #a3a3a3;
+}
+
+#ndshAO {
+    color: #a3a3a3;
+}

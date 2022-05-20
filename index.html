@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НДШ Тооцоолол</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- CSS only -->
+</head>
+
+<body>
+    <p>
+        <span style="color:#FFFFFF;">
+            <span style="background-color:#74b51d; border-radius: 3px;">&nbsp;ҮНДСЭН ЦАЛИН:&nbsp;</span>
+        </span>&nbsp;
+        <input id="my_input" id="in1" placeholder="цалингаа оруулна уу" type="text">
+        <button class="my_button1" id="r_button" onclick="solve()">ЦАЛИН БОДОХ</button>
+    </p>
+
+    <table id="table">
+        <tr>
+            <th width="600px">Агуулга</th>
+            <th width="200px">ОДОО <br>
+                <div id="date"></div>
+            </th>
+        </tr>
+        <tr>
+            <td>ХХДХ-Хөдөлмөрийн хөлсний доод хэмжээ</td>
+            <td id="answer">
+                <div id="salaryMinimum"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>НДШ (%)-Хувь хүн</td>
+            <td id="answer">
+                <div id="ndshPercent"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>НДШ (%)-АО</td>
+            <td id="answer">
+                <div id="ndshAO"></div>
+            </td>
+        </tr>
+        <tr>
+            <td id="salaryAll">ЦАЛИН БҮГД</td>
+            <td id="answer">
+                <div id="salaryAll1"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>НДШ-АО - Ажил олгогчоос төлөх</td>
+            <td id="answer">
+                <div id="ndshFromJob"></div>
+            </td>
+        </tr>
+        <tr>
+            <td id="realSalary">ҮНДСЭН ЦАЛИН-Сарын үндсэн цалин</td>
+            <td id="answer">
+                <div id="salaryMain"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>НДШ -Хувь хүн төлөх (2%+9.5%)</td>
+            <td id="answer">
+                <div id="ndshFromIndividual"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>ХХОАТ 10%</td>
+            <td id="answer">
+                <div id="hhoat10"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Хөнгөлөлт - ХХОАТ-ийн хөнгөлөлт</td>
+            <td id="answer">
+                <div id="hhoatDiscount"></div>
+            </td>
+        </tr>
+        <tr>
+            <td id="salaryReal">ГАРТ ОЛГОХ</td>
+            <td id="answer">
+                <div id="salaryOnHand"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>НДШ - Буцаалт (4.75%)</td>
+            <td id="answer">
+                <div id="salaryReal1"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+
+
+<script src="script.js"></script>
+
+</html>
